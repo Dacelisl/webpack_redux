@@ -1,0 +1,36 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "test webpack and redux ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --watch --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dacelisl/webpack-test.git"
+  },
+  "author": "Dc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dacelisl/webpack-test/issues"
+  },
+  "homepage": "https://github.com/Dacelisl/webpack-test#readme",
+  "devDependencies": {
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "lodash-es": "^4.17.10",
+    "mini-css-extract-plugin": "^0.4.1"
+  },
+  "dependencies": {
+    "css-loader": "^3.2.0",
+    "redux": "^4.0.4"
+  }
+}
