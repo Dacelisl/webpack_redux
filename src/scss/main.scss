@@ -1,0 +1,33 @@
+@font-face {
+    font: {
+        family: 'Chalet'!important;
+        style: normal;
+        weight: normal;
+    }
+    src: url('../fonts/Chalet.eot');
+    src: url('../fonts/Chalet.eot?#iefix')format('embedded-opentype'),
+    url('../fonts/Chalet.woff')format('woff'),
+    url('../fonts/Chalet.ttf')format('ttf'),
+    url('../fonts/Chalet.svg#Chalet')format('svg');
+}
+
+html {
+    font: {
+        size: 32px;
+        family: 'Chalet', sans-serif;
+    }
+    background: {
+        color: #ccd5da;
+        /* image: url('../img/webpack-cube.svg'); */
+        size: 1%;
+    }
+}
+
+body {
+    background-color: rgba($color: #000000, $alpha: 1)
+}
+
+#app {
+    height: fit-content;
+    width: fit-content;
+}
